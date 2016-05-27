@@ -11,11 +11,11 @@ $(window).scroll(function(){
 });
 $(document).ready(function () {
 	$('div.container-fluid').fadeIn(5000);
-    $('#googleMaps').addClass('scrolloff');
+    $('#map').addClass('scrolloff');
     $('#googleMapsCover').on('click', function () {
-        $('#googleMaps').removeClass('scrolloff');
+        $('#map').removeClass('scrolloff');
     });
-    $("#googleMaps").mouseleave(function () {
-        $('#googleMaps').addClass('scrolloff');
+    $("#map").mouseleave(function () {
+        $('#map').addClass('scrolloff');
     });
 });

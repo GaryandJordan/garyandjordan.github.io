@@ -40,6 +40,10 @@ hr.styling:after {
 	width:100%;
 	height: 500px;
 }
+#verticalCenter {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
 
 /* Default (Portrait Settings)*/
 .openingImage {

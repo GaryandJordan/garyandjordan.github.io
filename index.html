@@ -16,6 +16,9 @@
 		<!--Index CSS and JS-->
 		<script src="index.js"></script>
 		<link rel="stylesheet" href="index.css">
+		<!-- Google Maps -->
+		<script src="googleMaps.js"></script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDS64Fv72Veot3MUNHfdTHKz2JUTKIH4LM&callback=initMap"></script>
 	</head>
 
 	<body>
@@ -30,7 +33,7 @@
 			<!--Marriage Logo-->
 			<div class="row">
 				<div class="col-sm-8 col-sm-offset-2">
-					<h1 style="text-align:center">LOGO WOULD BE HERE</h1>
+				<h1 style="text-align:center">LOGO WOULD BE HERE</h1>
 				</div>
 			</div>
 			<!--About Us-->
@@ -50,23 +53,34 @@
 			</div>
 			<!-- Details -->
 			<div class="row">
-				<div class= "col-xs-12">
-					<h1 style="text-align:center">Details</h1>
-				</div>
-				<div class="col-xs-12 col-md-3 col-md-offset-2">
-					<p style="text-align:center">Location</p>
+				<div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-2">
+						<h3 style="text-align:center">Location</h3>
+						<hr class="styling">
+						<p style="text-align:left"> <b>Cannon Beach Community Hall</b><br>
+							207 N Spruce St,<br>
+							Cannon Beach, OR 97110 
+						</p>
 				</div>
 				<div class="col-xs-12 col-md-2">
-					<p style="text-align:center"> Time </p>
+					<h3 style="text-align:center"> Details Logo//Vector </h3>
 				</div>
-				<div class="col-xs-12 col-md-3">
-					<p style="text-align:center">Dress Code</p>
+				<div class="col-xs-10 col-xs-offset-1 col-md-3">
+						<h3 style="text-align:center">Day</h3>
+						<hr class="styling">
+						<p style="text-align:left"> 
+							Sunday, <b>October 2nd, 2016</b><br>
+							Reception begins at <b>5:00PM</b><br>
+							Food served at <b>6:00pm</b><br>
+							Dancing to Follow
+						</p><br><br>
 				</div>
 			</div>
 			<!--Google Maps -->
 			<div class="row" id="googleMapsCover">
 				<div class="col-xs-12">
-					<iframe id="googleMaps" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?origin=place_id:ChIJ0_uxtC-klVQR7Q_gsaP6o6o&destination=place_id:ChIJUcBVlOWklFQRMKul0dk3Zh4&key=AIzaSyDS64Fv72Veot3MUNHfdTHKz2JUTKIH4LM" allowfullscreen></iframe>
+					<div id="map">
+
+					</div>
 			</div>
 		</div>
 	</body>

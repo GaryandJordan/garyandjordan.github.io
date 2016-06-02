@@ -10,6 +10,15 @@ function initMap() {
         ]
     },
     {
+        "featureType": "administrative.locality",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
         "featureType": "landscape",
         "elementType": "all",
         "stylers": [

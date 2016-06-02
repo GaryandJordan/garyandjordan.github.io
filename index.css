@@ -114,13 +114,10 @@ img#ending {
 }
 /* Landscape Specific */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:750px) {
-	h1 {
-		font-size:10vh;
-	}
 	img#opening {
 		content: url("img/openingLandscape.jpg");
 	}
-	img#ending {
+	img#opening {
 		content: url("img/endingLandscape.jpg");
 	}
 	#detailLogo {

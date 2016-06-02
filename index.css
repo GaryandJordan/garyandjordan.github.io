@@ -124,18 +124,18 @@ img#ending {
 		display: inline;
 	}
 	img#amazon {
-	width: 200px;
-	height: 200px;
+	width: 300px;
+	height: 300px;
 	content: url("img/amazon.png");
 	}
 	img#bedBathBeyond {
-	width: 200px;
-	height: 200px;
+	width: 300px;
+	height: 300px;
 	content: url("img/bbb.png");
 	}
 	img#target {
-	width: 200px;
-	height: 200px;
+	width: 300px;
+	height: 300px;
 	content: url("img/target.jpg");
 	}
 	#spacerDetail {

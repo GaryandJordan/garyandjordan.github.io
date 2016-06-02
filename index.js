@@ -18,4 +18,8 @@ $(document).ready(function () {
     $("#map").mouseleave(function () {
         $('#map').addClass('scrolloff');
     });
+    var verticalHeight = $('.heightMeasure').css('height');
+    $('#verticalCenter').height(verticalHeight).css({
+    	"line-height": verticalHeight,
+    });
 });

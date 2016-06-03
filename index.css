@@ -24,6 +24,7 @@ p {
 hr.styling {
 	border-top: 4px double #FFDAE0;
 	text-align: center;
+	width: 50%;
 }
 hr.styling:after {
 	content: '\002665';

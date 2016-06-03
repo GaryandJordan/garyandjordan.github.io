@@ -102,13 +102,9 @@ img#target {
 .endingImage {
 	padding-right: 0px;
 	padding-left: 0px;
-	height: 100vh;
-	overflow:hidden;
-	text-align: center;
 }
 img#ending {
 	width: 100%;
-	bottom: 0px;
 	content: url("img/endingPortrait.jpg");
 }
 #spacerDetail {

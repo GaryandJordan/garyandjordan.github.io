@@ -70,7 +70,12 @@ img#gportrait {
 	content:url("img/garyPortrait.jpg");
 		/* */
 }
-
+#justifyRight {
+	text-align: right;
+}
+#justifyLeft {
+	text-align: left;
+}
 .circle {
 	display: block;
 	margin: auto;

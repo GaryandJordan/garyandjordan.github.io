@@ -19,7 +19,10 @@ $(document).ready(function () {
         $('#map').addClass('scrolloff');
     });
     var verticalHeight = $('.heightMeasure').css('height');
-    $('#verticalCenter').height(verticalHeight).css({
-    	"line-height": verticalHeight,
-    });
+    var horizontalWidth = $('.heightMeasure').width();
+    if ( horizontalWidth >= 768 ) {
+    	$('#verticalCenter').height(verticalHeight).css({
+    		"line-height": verticalHeight,
+    	});	
+    }
 });

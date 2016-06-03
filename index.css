@@ -70,10 +70,7 @@ img#gportrait {
 	content:url("img/garyPortrait.jpg");
 		/* */
 }
-#detailLogo {
-	display:none;
-	/* */
-}
+
 .circle {
 	display: block;
 	margin: auto;
@@ -119,9 +116,6 @@ img#ending {
 	}
 	img#ending {
 		content: url("img/endingLandscape.jpg");
-	}
-	#detailLogo {
-		display: inline;
 	}
 	img#amazon {
 	max-width: 100%;

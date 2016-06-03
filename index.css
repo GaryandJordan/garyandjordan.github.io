@@ -23,7 +23,7 @@ p {
 }
 hr.styling {
 	border-top: 4px double #FFDAE0;
-	text-align: center;
+	text-align: right;
 }
 hr.styling:after {
 	content: '\002665';

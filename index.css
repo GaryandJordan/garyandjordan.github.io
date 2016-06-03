@@ -23,7 +23,16 @@ p {
 }
 hr.styling {
 	border-top: 4px double #FFDAE0;
-	text-align: center;
+}
+hr.styling:before {
+	content: '\002665';
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 10 0px;
+	background: #ffffff;
+	color: #ff87c3;
+	font-size: 18px;
 }
 hr.styling:after {
 	content: '\002665';

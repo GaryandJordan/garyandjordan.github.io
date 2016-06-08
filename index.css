@@ -111,7 +111,7 @@ img#ending {
 	/* */
 }
 /* Landscape Specific */
-@media screen and (min-aspect-ratio: 1/1) and (min-width:750px) {
+@media screen and (min-aspect-ratio: 1/1) and (min-width:600px) {
 	img#opening {
 		content: url("img/openingLandscape.jpg");
 	}

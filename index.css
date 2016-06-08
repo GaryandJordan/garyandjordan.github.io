@@ -42,6 +42,12 @@ hr.styling:after {
 	min-height: 10vh;
 	/* */
 }
+#justifyRight {
+	text-align: center;
+}
+#justifyLeft {
+	text-align: center;
+}
 .openingImage {
 	padding-right: 0px;
 	padding-left: 0px;
@@ -68,12 +74,6 @@ img#jportrait {
 img#gportrait {
 	content:url("img/garyPortrait.jpg");
 		/* */
-}
-#justifyRight {
-	text-align: right;
-}
-#justifyLeft {
-	text-align: left;
 }
 .circle {
 	display: block;
@@ -136,7 +136,13 @@ img#ending {
 	#spacerDetail {
 	display:none;
 	/* */
-}
+	}
+	#justifyRight {
+	text-align: right;
+	}
+	#justifyLeft {
+	text-align: left;
+	}
 }
 
 /* Bouncing Arrow */

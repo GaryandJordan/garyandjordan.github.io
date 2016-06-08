@@ -88,11 +88,6 @@ img#amazon {
 	max-height: 150px;
 	content: url("img/amazon.png");
 }
-img#bedBathBeyond {
-	max-width: 100%;
-	max-height: 150px;
-	content: url("img/bbb.png");
-}
 img#target {
 	max-width: 100%;
 	max-height: 150px;
@@ -122,11 +117,6 @@ img#ending {
 	max-width: 100%;
 	max-height: 300px;
 	content: url("img/amazon.png");
-	}
-	img#bedBathBeyond {
-	max-width: 100%;
-	max-height: 300px;
-	content: url("img/bbb.png");
 	}
 	img#target {
 	max-width: 100%;
